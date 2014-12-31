@@ -11,11 +11,12 @@ public class Vehical {
 	int interval;
 	float v;
 	int passenger;
-	boolean flag;
-	boolean isAtStation;
-	boolean isStop;
+	boolean flag = false;
+	boolean isAtStation = false;
+	boolean isStop = false;
 	int loadPassengers;
 	float mile = 0;
+	int stop_minite;
 	String type;
 
 	public Vehical(String string, int interval, float v, int passenger,
